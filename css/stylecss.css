@@ -1,0 +1,135 @@
+body{
+	width: 100%;
+	margin: 0;
+}
+.header{
+	background-color: #000;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-family: "Times New Roman", Georgia, Serif;
+	
+}
+.header h1{
+	
+	font-size: 28px;
+	
+}
+.name{
+	color: white;
+	font-family: sans-serif, Arial;
+	
+}
+.name p{
+	font-size: 0.6vmax;
+}
+nav {
+	text-align: center;
+	
+}
+.menu {
+	
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	
+}
+.menu a{
+	color:#656565;
+	text-decoration: none;
+	text-align: center;
+	
+	font-size: 0.99vmax;
+	border-bottom: 0.3vw solid transparent;
+	padding-bottom: 0.7vw;
+
+}/*
+.cleafix{
+	content: '';
+	display: table;
+	width: 100%; 
+	clear: both;
+}*/
+.menu a:hover{
+	border-bottom: 2px solid #878787;
+	text-decoration: none;
+	color: #656565;
+
+}
+.info{
+	margin-top: 1.5vw;
+}
+.myphoto img{
+	width: 20vmax;
+	float: left;
+	padding-left: 2.2vw;
+}
+.myphoto{
+	display: inline-block;
+	padding-top: 2.2vw;
+	margin-left: 18vw;
+	border:0.1vw solid #615e5e;
+	padding-bottom: 2.2vw;
+	box-shadow:  0.1vw  0.1vw 0.9vw #9a9595;
+	
+}
+.text{
+	width: 40vw;
+	float: right;
+	margin-left: 2vw;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.text h1{
+	font-size: 1.8vmax;
+}
+.text p{
+	font-size: 1.1vmax;
+}
+.about{
+	margin-top: 7.2vw;
+	margin-bottom: 7vw;
+
+}
+.container{
+	background-color: #aab1bc;
+	font-family: "Times New Roman", Georgia, Serif;
+	color: white;
+	text-align: center;
+}
+.container h1{
+	font-size: 28px;
+	font-family: sans-serif, Arial;
+	padding-top: 2.2vw;
+}
+.container img{
+	width: 20vmax;
+	margin-left: 2.2vw;
+	margin-right: 2.2vw;
+	margin-bottom: 5.2vw;
+	margin-top: 2.2vw;
+}
+.container img:hover{
+	box-shadow:  0.1vw  0.1vw 0.9vw #615e5e;
+    cursor: pointer;
+}
+.logo img{
+	width: 100%;
+}
+.contact div{
+	display: inline-block;
+	padding-left: 8vw;
+}
+.contact h1{
+	font-size: 1.5vw;
+	font-family: sans-serif, Arial;
+	
+}
+.contact {
+	color: #393939;
+	margin-left: 18vw;
+}
+.contact p{
+	font-family: sans-serif, Arial;
+	font-size: 0.9vw;
+}
